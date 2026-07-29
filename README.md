@@ -10,12 +10,4 @@
 
 ## 📌 About
 
-This repository is dedicated to storing practical exercises, class projects, and code snippets for the **Linguagens e Técnicas de Programação** course, part of the **Análise e Desenvolvimento de Sistemas** degree.
-
----
-
-## 📂 Repository Structure
-
-```text
-├── 📄 HelloWorld.c
-└── 📄 README.md
+This repository houses practical exercises, algorithms, and projects developed for the Linguagens e Técnicas de Programação course as part of the Análise e Desenvolvimento de Sistemas degree (Semester 2). Its goal is to document my progress in programming logic, algorithms, and software development fundamentals.
