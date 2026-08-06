@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int a;
+	int b;
+	int c;
+	int soma;
+	
+	printf("Adicione o primeiro valor: ");
+	scanf("%d", &a);
+	
+	printf("Adicione o segundo valor: ");
+	scanf("%d", &b);
+	
+	printf("Adicione o segundo valor: ");
+	scanf("%d", &c);
+	
+	soma = a + b + c;
+	
+	printf("A soma dos numeros = %d\n", soma);
+	
+	return 0;
+}
