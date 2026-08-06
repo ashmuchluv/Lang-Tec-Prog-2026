@@ -14,7 +14,7 @@ int main(){
 	printf("Adicione o segundo valor: ");
 	scanf("%d", &b);
 	
-	printf("Adicione o segundo valor: ");
+	printf("Adicione o terceiro valor: ");
 	scanf("%d", &c);
 	
 	soma = a + b + c;
