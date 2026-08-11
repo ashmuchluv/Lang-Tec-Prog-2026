@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language" />
   <img src="https://img.shields.io/badge/Semester-2nd_Semester-orange?style=for-the-badge" alt="Semester 2" />
-  <img src="https://img.shields.io/badge/Course-ANÁLISE_E_DESENVOLVIMENTO_DE_SISTEMAS-informational?style=for-the-badge" alt="ADS" />
+  <img src="https://img.shields.io/badge/Course-SYSTEMS_ANALYSIS_AND_DEVELOPMENT-informational?style=for-the-badge" alt="Systems Analysis and Development" />
 </p>
 
 ---
