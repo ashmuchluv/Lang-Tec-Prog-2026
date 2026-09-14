@@ -40,14 +40,75 @@ int idade, anoAtual, anoNascimento;
 	tempF = tempC *(9.0/5.0) + 32.0;
 	printf("A temperatura é %f", tempF);
 	
-	
+// 5 - Graus para Radianos
+	float graus, radianos;
 
+    printf("Digite o angulo em graus: ");
+    scanf("%f", &graus);
+
+    radianos = graus * 3.141592 / 180;
+
+    printf("Angulo em radianos: %.2f\n", radianos);
+// %.2f = pega apenas 2 números decimais do valor
+
+// 6 - Antecessor e Sucessor
+	int numero, antecessor, sucessor;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+
+    antecessor = numero - 1;
+    sucessor = numero + 1;
+
+    printf("Antecessor: %d\n", antecessor);
+    printf("Sucessor: %d\n", sucessor);
+
+// 7 - Divisão de premio
+	float total, primeiro, segundo, terceiro;
+
+    total = 780000;
+
+    primeiro = total * 0.46;
+    segundo = total * 0.32;
+    terceiro = total - primeiro - segundo;
+
+    printf("Primeiro ganhador: R$ %.2f\n", primeiro);
+    printf("Segundo ganhador: R$ %.2f\n", segundo);
+    printf("Terceiro ganhador: R$ %.2f\n", terceiro);
+
+// 8 - Segundos em Horas
+	int segundos, horas, minutos, segundosRestantes;
+
+    printf("Digite o tempo em segundos: ");
+    scanf("%d", &segundos);
+
+    horas = segundos / 3600;
+    segundosRestantes = segundos % 3600;
+
+    minutos = segundosRestantes / 60;
+    segundosRestantes = segundosRestantes % 60;
+
+    printf("%d:%d:%d\n", horas, minutos, segundosRestantes);
+
+// 9 - Litros necessários
+	float tempo, velocidade, distancia, litros;
+
+    printf("Digite o tempo gasto na viagem (horas): ");
+    scanf("%f", &tempo);
+
+    printf("Digite a velocidade media (km/h): ");
+    scanf("%f", &velocidade);
+
+    distancia = tempo * velocidade;
+    litros = distancia / 12;
+
+    printf("Litros necessarios: %.3f\n", litros);
 
 // 10 - Número maior
-	
 	int a, b, c, maior_temp, maior;
 	printf("Insira os valores a serem comparados: ");
 	scanf("%d %d %d", &a, &b, &c);
+	
 	maior_temp = ((a+b)+abs(a-b))/2;
 	maior = ((maior_temp+c)+abs(maior_temp-c))/2;
 	
