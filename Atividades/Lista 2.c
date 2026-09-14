@@ -5,9 +5,28 @@
 
 int main(int argc, char *argv[]) {
 
-// 1 - 
+// 1 - Calcular ano de nascimento atravez de idade e ano atual
+int idade, anoAtual, anoNascimento;
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    printf("Digite o ano atual: ");
+    scanf("%d", &anoAtual);
+
+    anoNascimento = anoAtual - idade;
+
+    printf("Ano de nascimento: %d\n", anoNascimento);
 	
-// 2 - 
+// 2 - Km/h para m/s
+	double kmh, ms;
+// double pq ele guarda casa decimal 
+    printf("Digite a velocidade em km/h: ");
+    scanf("%lf", &kmh);
+
+    ms = kmh / 3.6;
+
+    printf("Velocidade em m/s: %.2lf\n", ms);
 
 // 3 - valor em reais para dólar
 	float dolar, real, cota;
