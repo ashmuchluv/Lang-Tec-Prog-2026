@@ -40,5 +40,7 @@ float PVP, VPA, valorpatrimonial, acoesdisponiveis, valoratualacao;
 	
 	VPA = 
 
+		// incompleta
+
 	return 0;
 }
