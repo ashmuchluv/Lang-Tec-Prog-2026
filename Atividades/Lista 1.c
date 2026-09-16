@@ -144,7 +144,6 @@ int main()
 }
 
 // 7 - 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -160,5 +159,33 @@ int main()
     
     printf ("O volume da esfera é: %f", volume);
     
+    return 0;
+}
+
+// 8 - 
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    float x1, y1, x2, y2, distancia;
+
+    printf("Digite x1: ");
+    scanf("%f", &x1);
+
+    printf("Digite y1: ");
+    scanf("%f", &y1);
+
+    printf("Digite x2: ");
+    scanf("%f", &x2);
+
+    printf("Digite y2: ");
+    scanf("%f", &y2);
+
+    distancia = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+
+    printf("A distancia entre os pontos é: %f", distancia);
+
     return 0;
 }
