@@ -126,7 +126,6 @@ int main(int argc, char *argv[]) {
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main()
 {
     
@@ -143,4 +142,23 @@ int main()
     
     return 0;
 }
-	
+
+// 7 - 
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    
+    float volume, raio;
+    
+    printf ("Adicione o Raio da esfera: ");
+    scanf ("%f", &raio);
+    
+    volume = (4.0/3.0) * 3.14159 * (raio * raio * raio);
+    
+    printf ("O volume da esfera é: %f", volume);
+    
+    return 0;
+}
