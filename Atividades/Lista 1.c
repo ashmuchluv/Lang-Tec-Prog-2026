@@ -121,3 +121,26 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+// 6 - 
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    
+    int num, anos, meses, dias;
+    
+    printf ("Adicione sua idade em numeros: ");
+    scanf ("%d", &num);
+    
+    anos = num / 365;
+    meses = (num % 365) / 30;
+    dias = (num % 365) % 30;
+    
+    printf ("%d/%d/%d", anos, meses, dias);
+    
+    return 0;
+}
+	
