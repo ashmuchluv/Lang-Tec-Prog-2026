@@ -13,14 +13,16 @@ int comp_maior (int a, int b){
 int main(int argc, char *argv[]) {
 	
 	int valor[10];
-	int i;
+	int maior, menor, i;
 	
-	printf("Leia os numeros ");
-	
+	printf("Leia os numeros \n");
+	//for (inicialização; verificação; incremento)
 	for(i=0; i<10; i++){
 		scanf("%d",&valor[i]);
 	}
-	for(i=9; i>0; i--){
+	
+	printf("\n");
+	for(i=9; i>=0; i--){
 		printf("|%d|",valor[i]);
 	}
 	
