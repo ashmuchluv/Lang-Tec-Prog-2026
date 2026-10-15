@@ -1,13 +1,15 @@
-# 💻 Programming Languages and Techniques
+# 💻 Linguagens e Técnicas de Programação
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C Language" />
-  <img src="https://img.shields.io/badge/Semester-2nd_Semester-orange?style=for-the-badge" alt="Semester 2" />
-  <img src="https://img.shields.io/badge/Course-SYSTEMS_ANALYSIS_AND_DEVELOPMENT-informational?style=for-the-badge" alt="Systems Analysis and Development" />
+  <img src="https://img.shields.io/badge/Linguagem-C-333333?style=for-the-badge&logo=c&logoColor=white" alt="Linguagem C" />
+  <img src="https://img.shields.io/badge/Semestre-2º_Semestre-333333?style=for-the-badge" alt="2º semestre" />
+  <img src="https://img.shields.io/badge/Curso-ANÁLISE_E_DESENVOLVIMENTO_DE_SISTEMAS-333333?style=for-the-badge" alt="Análise e Desenvolvimento de Sistemas" />
 </p>
 
 ---
 
-## 📌 About
+## 📌 Sobre
 
-This repository houses practical exercises, algorithms, and projects developed for the Linguagens e Técnicas de Programação course as part of the Análise e Desenvolvimento de Sistemas degree (Semester 2). Its goal is to document my progress in programming logic, algorithms, and software development fundamentals.
+Este repositório reúne exercícios práticos, algoritmos e projetos desenvolvidos na disciplina de **Linguagens e Técnicas de Programação**, durante o curso de **Análise e Desenvolvimento de Sistemas (ADS)**, no 2º semestre.
+
+O objetivo é documentar minha evolução em lógica de programação, desenvolvimento de algoritmos e fundamentos do desenvolvimento de software.
